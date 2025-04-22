@@ -5,6 +5,10 @@
 import * as menus from './menus.js';
 import * as camper from "./campers.js";
 
+let registroxs= menus.registrocamperc();
+alert(registroxs +"hola");
+registrocamperc;
+/////////
 //hacemos un while para que siempre se repita el programa hasta que no lo deseenos
 let z1 = true;
 while (z1==true){

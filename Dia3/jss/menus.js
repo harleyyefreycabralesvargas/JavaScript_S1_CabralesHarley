@@ -24,7 +24,8 @@ export function registrocamperc() {
     let campteln=prompt("dame tu telefono")
     let campconn=prompt("establece tu contraseña")
     let campestn="inscrito"
-    alert("hola "+campnomn+" "+ campapen+" estas en estado de "+ campestn +", tu id es "+camper.campers.length + " y tu contraseña es "+campconn+", recuerdalos");
+return campnomn,campapen,campdirn,campacun,campteln,campconn,campestn;
+alert("hola "+campnomn+" "+ campapen+" estas en estado de "+ campestn +", tu id es "+camper.campers.length + " y tu contraseña es "+campconn+", recuerdalos");
 };
 //menu para saber a cual rol se desea acceder
 export function menuidentificacionu() {

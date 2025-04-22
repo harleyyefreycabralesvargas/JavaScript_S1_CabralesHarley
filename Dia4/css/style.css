@@ -1,0 +1,74 @@
+/**IMPLEMENTACIÓN FUENTE**/
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap&#39;');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.10em;
+    font-family: 'Oxanium', cursive;
+}
+body{
+    background-color: black;
+}
+.fondo{
+    position: absolute;
+    background: linear-gradient(rgb(94, 185, 241) 25%,rgb(223, 251, 255),rgb(251, 253, 253));
+    width: 600px;
+    height: 680px;
+    min-width: 10px;
+}
+.poquedex{
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 680px;
+    margin-left: 5px;
+    padding: 20px 10px 20px 10px;
+    min-width: 10px;
+    
+}
+#nombritos{
+    position: absolute;
+}
+#nombritos h2{
+    position: absolute;
+    left: 0;         
+    width: 390px;  
+    text-align: right;  
+    padding-right: 1px; 
+    margin-top: 355px;
+    padding: 13px;
+    height: 300px;
+
+}
+
+#foticos{
+    position: absolute;
+}
+#foticos img{
+    margin-top: 151px;
+    margin-left: 110px;
+    padding: 30px;
+    width: 250px;
+    height: 250px;
+}
+.num{
+    color: grey;
+}
+.valor_pokee{
+    position: absolute;
+}
+#numpokehtml{
+    border-radius: 5px;
+    margin-top: 450px;
+    width: 350px;
+    margin-left: 60px;
+    padding: 12px 18px;
+    font-size: 16px;
+    border: 2px solid #948888;
+    background-color: #ece8e8;
+    box-shadow: -4px 5px 0px #ad9c9c, 2px 2px 0 #503b3b;
+}
+.botones{
+    position: absolute;
+}
