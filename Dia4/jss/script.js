@@ -34,9 +34,13 @@ function displayPokef(data){
     let fotopokeHTML = document.getElementById('foticos');
     if(data.response == "error"){
         fotopokeHTML.innerHTML=`<p>Esto no funcionó :sadfeis:</p>`;
-    }else{
+    }else if(data["sprites"]["other"]["showdown"]["front_default"]!==null){
         fotopokeHTML.innerHTML=`
         <img src=${data["sprites"]["other"]["showdown"]["front_default"]} />
+        `
+    }else{
+        fotopokeHTML.innerHTML=`
+        <img src=${data["sprites"]["front_default"]} />
         `
     }
 }
