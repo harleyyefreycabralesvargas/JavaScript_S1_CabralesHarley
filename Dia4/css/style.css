@@ -46,11 +46,11 @@ body{
     position: absolute;
 }
 #foticos img{
-    margin-top: 151px;
-    margin-left: 110px;
+    margin-top: 170px;
+    margin-left: 140px;
     padding: 30px;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
 }
 .num{
     color: grey;
@@ -69,6 +69,29 @@ body{
     background-color: #ece8e8;
     box-shadow: -4px 5px 0px #ad9c9c, 2px 2px 0 #503b3b;
 }
-.botones{
+.botones-poke{
     position: absolute;
+}
+#botons{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 550px;
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: rgb(65, 64, 64);
+    color: white;
+    box-shadow: -4px 6px 0px #000000, 2px 2px 0 #000000;
+    border: solid 1px black;
+}
+#botona{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 550px;
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: rgb(65, 64, 64);
+    color: white;
+    box-shadow: -4px 6px 0px #000000, 2px 2px 0 #000000;
 }

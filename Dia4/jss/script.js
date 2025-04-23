@@ -36,7 +36,24 @@ function displayPokef(data){
         fotopokeHTML.innerHTML=`<p>Esto no funcionó :sadfeis:</p>`;
     }else{
         fotopokeHTML.innerHTML=`
-        <img src=${data["sprites"]["front_default"]} />
+        <img src=${data["sprites"]["other"]["showdown"]["front_default"]} />
         `
     }
 }
+document.getElementById("botons").addEventListener("click", function () {
+    let input = document.getElementById("numpokehtml");
+    let value = parseInt(input.value);
+    if (!isNaN(value)) {
+        input.value = value + 1;
+        fetchPoke();
+    }
+});
+
+document.getElementById("botona").addEventListener("click", function () {
+    let input = document.getElementById("numpokehtml");
+    let value = parseInt(input.value);
+    if (!isNaN(value) && value > 1) {
+        input.value = value - 1;
+        fetchPoke();
+    }
+});
