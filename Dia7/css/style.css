@@ -1,35 +1,44 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 1.10em;
-}
 body{
-    background-color: black;
-    width: 100%;
-    height: 100%;
-}
-.fondo{
-    
-    position: absolute ;
-    background-image:url("../imagenes/mesa.jpg");
-    background-size: 100%;
+    margin: 0;
+    max-width: 1920px;
+    height: 1080px;
+    background-image: url(../imagenes/mesa.jpg);
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-   
+    background-size: cover;
+    min-width: 10px;
 }
-.juego img{
+.logo{
     position: absolute;
-    margin-left: 300px;
-    width: 150px;
-    height: 100px;
+    margin-left: 35vw;
+    margin-top: 12vh;
+    min-width: 10px;
 }
-.botones{
+.button1{
     position: absolute;
-    color: white;
-    margin-top: 600px;
+    height: 8vh;
+    width: 15vw;
+    font-size: 2rem;
+    border: none;
+    margin-top: 65vh;
+    margin-left: 40vw;
+    border-radius: 2vw;
+    background-color: #FFD700;
 }
-.jugador{
+.button2{
     position: absolute;
+    height: 8vh;
+    width: 15vw;
+    font-size: 2rem;
+    margin-left: 40vw;
+    border: none;
+    margin-top: 80vh;
+    border-radius: 2vw;
+    background-color: #FFD700;
+}
+button:hover{
+    cursor: pointer;
+    margin-left: 40.5vw;
+    box-shadow: -5px 1vw 2vh black;
+    width: 14vw;
+    height: 7vh;
 }
