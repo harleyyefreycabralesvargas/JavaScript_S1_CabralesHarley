@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 10px;
+}
+#conteiner{
+    background-color: red;
+}
+.info1{
+    width: 100%;
+}

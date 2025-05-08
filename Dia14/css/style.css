@@ -1,0 +1,89 @@
+.trajes{
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 3px solid blue;
+    border-radius: .25rem;
+}
+.titulo_trajes:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+.titulo_trajes {
+    padding: .5rem 1rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+
+.registro_trajes {
+    
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.card {
+    word-wrap: break-word;
+}
+.registro_trajes h5,p{
+    color: blue;
+}
+#boton_mas{
+    background-color:rgba(253,184,7,255);
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+}
+.traje_nuevo p , input{
+    margin-left: 10%;
+    justify-content: space-around;
+    color: blue;
+}
+.traje_nuevo input{
+    width: 75%;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    margin-left: 10%;
+    justify-content: space-around;
+    color: red;
+}
+.traje_nuevo button{
+    width: 3%;
+    font-size: 20px;
+    height: 40px;
+    margin-left: 3%;
+    border: none;
+    justify-content: space-around;
+    border-radius: 8px;
+    color: white;
+    background-color: rgba(214,46,60,255);
+}
+.d-flex justify-content-start gap-3{
+    top: 80px;
+}
